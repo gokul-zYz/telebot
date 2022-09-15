@@ -1,3 +1,3 @@
-telegram.ext
+pip install python-telegram-bot
 datetime
 requests
