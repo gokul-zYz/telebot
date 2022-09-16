@@ -8,7 +8,7 @@ def sample_responses(input_text):
     user_message=str(input_text).lower()
     
     if user_message in("hi","hola","vanakkam","namaste"):
-       while 1>0:
+      
           for i in range(30000):
               return "HiTIMES"
                
