@@ -30,7 +30,7 @@ def sample_responses(input_text):
      #"chat_id": "-5645358157",
      "photo" : "https://melmagazine.com/wp-content/uploads/2021/01/Gigachad.jpg"}
         requests.post(to_url,data=payload)
-        return"This is me"
+        return"This is upates me"
     if user_message in("ruban"):
         payload={
      "chat_id": "5645358157",
