@@ -9,7 +9,7 @@ def sample_responses(input_text):
     
     if user_message in("hi","hola","vanakkam","namaste"):
       
-          for i in range(30000):
+          for i in range(300):
               return "HiTIMES"
                
     if user_message in("how are you","epdi iruka","nalla irukiya"):
