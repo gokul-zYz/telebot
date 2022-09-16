@@ -8,12 +8,10 @@ def sample_responses(input_text):
     user_message=str(input_text).lower()
     
     if user_message in("hi","hola","vanakkam","namaste"):
-        c=0
-        while 1>0:
-            
-            for i in range(30000):
-               return "Hi"+c+"TIMES"
-               c=c+1
+       while 1>0:
+          for i in range(30000):
+              return "HiTIMES"
+               
     if user_message in("how are you","epdi iruka","nalla irukiya"):
         return "Fine Bro,wat about you"
     if user_message in("name","un per enna","who are you","ne yaru"):
