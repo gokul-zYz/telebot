@@ -27,7 +27,7 @@ def sample_responses(input_text):
         return str(date_time)
     if user_message in("yourpic","sendyourpic","show your face"):
         payload={
-     #"chat_id": "-5645358157",
+     "chat_id": "5645358157",
      "photo" : "https://melmagazine.com/wp-content/uploads/2021/01/Gigachad.jpg"}
         requests.post(to_url,data=payload)
         return"This is upates me"
