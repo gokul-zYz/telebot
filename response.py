@@ -13,6 +13,12 @@ def sample_responses(input_text):
         return "Fine Bro,wat about you"
     if user_message in("name","un per enna","who are you","ne yaru"):
         return "IM A SIGMAVERSE_BOT"
+    if user_message in("john"):
+        payload={
+     "chat_id": "5645358157",
+     "photo" : "https://images.news18.com/ibnlive/uploads/2022/09/collage-maker-08-sep-2022-09.38-pm-16626533113x2.jpg?impolicy=website&width=510&height=356"}
+        requests.post(to_url,data=payload)
+        return "John is a Potta"
     if user_message in("women","whamen","pengal","girl"):
         return "hahahahahahahahahaha!Whamennnn!hahahh"
     if user_message in("time","mani enna","whats the time","whats the time now"):
