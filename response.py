@@ -2,7 +2,7 @@ from telegram.ext import *
 from requests import*
 from telegram import *
 import telegram,requests
-chat_list=[5645358157, 1339241817]
+chat_list=[1339241817,5645358157]
 #api_key="5748788062:AAHPP-5baIzIy7Q7zjccYgnwIJkAzjqRUeE"
 def sample_responses(input_text,context,update):
     botl=telegram.Bot("5748788062:AAG0wd6J8MMoB_FDZXFelYc12xOkz5i2t5c")
