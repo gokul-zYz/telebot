@@ -1,8 +1,6 @@
-from email.mime import text
 from telegram.ext import *
 from requests import*
 from telegram import *
-import schedule
 import telegram,requests
 chat_list=[5645358157, 1339241817]
 #api_key="5748788062:AAHPP-5baIzIy7Q7zjccYgnwIJkAzjqRUeE"
