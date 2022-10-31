@@ -5,7 +5,7 @@ import telegram,requests
 chat_list=[1339241817,5645358157]
 #api_key="5748788062:AAHPP-5baIzIy7Q7zjccYgnwIJkAzjqRUeE"
 def sample_responses(input_text,context,update):
-    botl=telegram.Bot("5748788062:AAG0wd6J8MMoB_FDZXFelYc12xOkz5i2t5c")
+    botl=telegram.Bot("5748788062:AAFI0Tna_QRjrZ3mYWVIobwKLZEadwy6doY")
     user_message=str(input_text).lower()
     chat_id=update.effective_chat.id
     if chat_id  not in chat_list:
