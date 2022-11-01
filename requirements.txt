@@ -1,3 +1,2 @@
-telegram.ext
-datetime
+python-telegram-bot
 requests
