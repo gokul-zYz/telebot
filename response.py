@@ -19,7 +19,7 @@ def sample_responses(input_text,context,update):
         return "he is very beautifulboy"
     if user_message in("bhavu"):
          
-         return "she is devil "
+         return "She is a Angel👼🧡❤💚 "
     if user_message in("fuck","sex","boobs"):
          image = get("https://pbs.twimg.com/media/FZFchgwakAASIux.jpg").content
          botl.send_chat_action(chat_id,action=telegram.chataction.ChatAction.TYPING)
