@@ -1,8 +1,9 @@
 from telegram.ext import *
+
 import response as R
 print("SIGMA WAKES UP...5..")
-api=("5748788062:AAFI0Tna_QRjrZ3mYWVIobwKLZEadwy6doY")
-updater = Updater(token="5748788062:AAFI0Tna_QRjrZ3mYWVIobwKLZEadwy6doY")
+api=("5794179294:AAHjS2BLZt4k3dIN4D0XjxswdkQowhud7bo")
+updater = Updater(token="5794179294:AAHjS2BLZt4k3dIN4D0XjxswdkQowhud7bo")
 def start_command(update,context: CallbackContext):
     update.message.reply_text("Im Wake Up! bro")
 def help_command(update,context: CallbackContext):
